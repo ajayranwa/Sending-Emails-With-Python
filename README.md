@@ -16,7 +16,7 @@
     ```javascript
     pip3 install > r.txt
     ```
-  * Change your account credentials and other details in Constants Class
+  * Change your account credentials and other details in Constants Class (_Changes are compulsory_)
     ```javascript
     self._from_address = "youremail@gmail.com"
     self._email_subject = "Automated email with Python"
@@ -24,7 +24,7 @@
     self._email_password = "yourpassword"
     self._to_address = ["youremail2@gmail.com","youremail3@gmail.com"]
     ```
-  * Email scheduling:
+  * Email scheduling (_Changes are not compulsory_):
     ```javascript
     def schedule(self,sch):
     project = self._project
